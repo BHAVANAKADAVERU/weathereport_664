@@ -25,12 +25,12 @@ function addWeatherToPage(data) {
 
 const ctx = document.getElementById('weather-chart').getContext('2d');
     new Chart(ctx, {
-        type: 'bar',
+        type: 'pie',
         data: {
-            labels: ['Temperature (°C)', 'Humidity (%)'],
+            labels: ['Temperature (°C)', 'Humidity (%)','windspeed'],
             datasets: [{
                 label: 'Weather Info',
-                data: [temp, humidity],
+                data: [temp, humidity,windspeed],
                 backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(255, 99, 132, 0.2)'],
                 borderColor: ['rgba(75, 192, 192, 1)', 'rgba(255, 99, 132, 1)'],
                 borderWidth: 1
