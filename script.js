@@ -31,8 +31,8 @@ const apikey = "299d79363b9fbeca858d484ad2741df0";
              datasets: [{ 
                  label: 'Weather Info', 
                  data: [temp, humidity,windSpeed], 
-                 backgroundColor: ['platinum', 'gold'], 
-                 borderColor: ['orange', 'magenta'], 
+                 backgroundColor: ['orange', 'magenta','gold'], 
+                 borderColor: ['orange', 'magenta','gold'], 
                  borderWidth: 1 
              }] 
          }, 
