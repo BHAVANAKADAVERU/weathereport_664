@@ -25,7 +25,7 @@ const apikey = "299d79363b9fbeca858d484ad2741df0";
   
  const ctx = document.getElementById('weather-chart').getContext('2d'); 
      new Chart(ctx, { 
-         type: 'pie', 
+         type: 'line', 
          data: { 
              labels: ['Temperature (°C)', 'Humidity (%)','Wind speed'], 
              datasets: [{ 
